@@ -1,0 +1,293 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="AppModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="City">
+    <Key>
+      <PropertyRef Name="CityID" />
+    </Key>
+    <Property Name="CityID" Type="Int32" Nullable="false" />
+    <Property Name="StateID" Type="Int32" Nullable="false" />
+    <Property Name="City1" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="State" Relationship="Self.FK_State_StateID" FromRole="City" ToRole="State" />
+  </EntityType>
+  <EntityType Name="Country">
+    <Key>
+      <PropertyRef Name="CountryID" />
+    </Key>
+    <Property Name="CountryID" Type="Int32" Nullable="false" />
+    <Property Name="Country1" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="State" Relationship="Self.FK_CountryID" FromRole="Country" ToRole="State" />
+  </EntityType>
+  <EntityType Name="State">
+    <Key>
+      <PropertyRef Name="StateID" />
+    </Key>
+    <Property Name="StateID" Type="Int32" Nullable="false" />
+    <Property Name="CountryID" Type="Int32" Nullable="false" />
+    <Property Name="State1" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="City" Relationship="Self.FK_State_StateID" FromRole="State" ToRole="City" />
+    <NavigationProperty Name="Country" Relationship="Self.FK_CountryID" FromRole="State" ToRole="Country" />
+  </EntityType>
+  <EntityType Name="sysdiagram">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="tbl_AgencyMaster">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="tbl_App">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="StagedTo" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="PID" Type="Int32" />
+    <Property Name="DEVUrl" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="StageUrl" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="ProdUrl" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="SourcePath" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="DocsRepo" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="tbl_AppRoleMaster">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="tbl_DomainMaster">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="tbl_Employee">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FirstName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="LastName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="MajorSkill" Type="Int32" />
+    <Property Name="Gender" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="Contact" Type="Int32" />
+    <Property Name="ManagerId" Type="Int32" />
+    <Property Name="LLId" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="Email" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="IsUsResources" Type="Boolean" />
+    <Property Name="IsContractor" Type="Boolean" />
+    <Property Name="CreatedOn" Type="DateTime" Precision="3" />
+    <Property Name="ModifiedOn" Type="DateTime" Precision="3" />
+    <Property Name="CreatedBy" Type="Int32" />
+    <Property Name="ModifiedBy" Type="Int32" />
+  </EntityType>
+  <EntityType Name="tbl_Server">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="IP" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Stage" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="LoginId" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Password" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="FingerPrint" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Host" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="FolderPath" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="tbl_ServerTypeMaster">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="tbl_TechnologyMaster">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <Association Name="FK_State_StateID">
+    <End Role="State" Type="Self.State" Multiplicity="1" />
+    <End Role="City" Type="Self.City" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="State">
+        <PropertyRef Name="StateID" />
+      </Principal>
+      <Dependent Role="City">
+        <PropertyRef Name="CityID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CountryID">
+    <End Role="Country" Type="Self.Country" Multiplicity="1" />
+    <End Role="State" Type="Self.State" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Country">
+        <PropertyRef Name="CountryID" />
+      </Principal>
+      <Dependent Role="State">
+        <PropertyRef Name="StateID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="AppDB_Entities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Cities" EntityType="Self.City" />
+    <EntitySet Name="Countries" EntityType="Self.Country" />
+    <EntitySet Name="States" EntityType="Self.State" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagram" />
+    <EntitySet Name="tbl_AgencyMaster" EntityType="Self.tbl_AgencyMaster" />
+    <EntitySet Name="tbl_App" EntityType="Self.tbl_App" />
+    <EntitySet Name="tbl_AppRoleMaster" EntityType="Self.tbl_AppRoleMaster" />
+    <EntitySet Name="tbl_DomainMaster" EntityType="Self.tbl_DomainMaster" />
+    <EntitySet Name="tbl_Employee" EntityType="Self.tbl_Employee" />
+    <EntitySet Name="tbl_Server" EntityType="Self.tbl_Server" />
+    <EntitySet Name="tbl_ServerTypeMaster" EntityType="Self.tbl_ServerTypeMaster" />
+    <EntitySet Name="tbl_TechnologyMaster" EntityType="Self.tbl_TechnologyMaster" />
+    <AssociationSet Name="FK_State_StateID" Association="Self.FK_State_StateID">
+      <End Role="State" EntitySet="States" />
+      <End Role="City" EntitySet="Cities" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CountryID" Association="Self.FK_CountryID">
+      <End Role="Country" EntitySet="Countries" />
+      <End Role="State" EntitySet="States" />
+    </AssociationSet>
+    <FunctionImport Name="proc_del_tbl_AgencyMaster">
+      <Parameter Name="Id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="proc_del_tbl_AppRoleMaster">
+      <Parameter Name="Id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="proc_del_tbl_DomainMaster">
+      <Parameter Name="Id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="proc_del_tbl_ServerTypeMaster">
+      <Parameter Name="Id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="proc_del_tbl_TechnologyMaster">
+      <Parameter Name="Id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="proc_upsert_City">
+      <Parameter Name="CityID" Mode="In" Type="Int32" />
+      <Parameter Name="StateID" Mode="In" Type="Int32" />
+      <Parameter Name="City" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="proc_upsert_tbl_AgencyMaster">
+      <Parameter Name="Id" Mode="In" Type="Int32" />
+      <Parameter Name="Name" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="proc_upsert_tbl_App">
+      <Parameter Name="Id" Mode="In" Type="Int32" />
+      <Parameter Name="Name" Mode="In" Type="String" />
+      <Parameter Name="Description" Mode="In" Type="String" />
+      <Parameter Name="StagedTo" Mode="In" Type="String" />
+      <Parameter Name="Pid" Mode="In" Type="Int32" />
+      <Parameter Name="DevUrl" Mode="In" Type="String" />
+      <Parameter Name="StageUrl" Mode="In" Type="String" />
+      <Parameter Name="ProdUrl" Mode="In" Type="String" />
+      <Parameter Name="SourcePath" Mode="In" Type="String" />
+      <Parameter Name="DocsRepo" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="proc_upsert_tbl_AppRoleMaster">
+      <Parameter Name="Id" Mode="In" Type="Int32" />
+      <Parameter Name="Name" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="proc_upsert_tbl_DomainMaster">
+      <Parameter Name="Id" Mode="In" Type="Int32" />
+      <Parameter Name="Name" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="proc_upsert_tbl_ServerTypeMaster">
+      <Parameter Name="Id" Mode="In" Type="Int32" />
+      <Parameter Name="Name" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="proc_upsert_tbl_TechnologyMaster">
+      <Parameter Name="Id" Mode="In" Type="Int32" />
+      <Parameter Name="Name" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="procUpsert">
+      <Parameter Name="Id" Mode="In" Type="Int32" />
+      <Parameter Name="Name" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="procUpsert1">
+      <Parameter Name="Id" Mode="In" Type="Int32" />
+      <Parameter Name="Name" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_alterdiagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="version" Mode="In" Type="Int32" />
+      <Parameter Name="definition" Mode="In" Type="Binary" />
+    </FunctionImport>
+    <FunctionImport Name="sp_creatediagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="version" Mode="In" Type="Int32" />
+      <Parameter Name="definition" Mode="In" Type="Binary" />
+    </FunctionImport>
+    <FunctionImport Name="sp_dropdiagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_generate_merge">
+      <Parameter Name="table_name" Mode="In" Type="String" />
+      <Parameter Name="target_table" Mode="In" Type="String" />
+      <Parameter Name="from" Mode="In" Type="String" />
+      <Parameter Name="include_timestamp" Mode="In" Type="Boolean" />
+      <Parameter Name="debug_mode" Mode="In" Type="Boolean" />
+      <Parameter Name="schema" Mode="In" Type="String" />
+      <Parameter Name="ommit_images" Mode="In" Type="Boolean" />
+      <Parameter Name="ommit_identity" Mode="In" Type="Boolean" />
+      <Parameter Name="top" Mode="In" Type="Int32" />
+      <Parameter Name="cols_to_include" Mode="In" Type="String" />
+      <Parameter Name="cols_to_exclude" Mode="In" Type="String" />
+      <Parameter Name="update_only_if_changed" Mode="In" Type="Boolean" />
+      <Parameter Name="delete_if_not_matched" Mode="In" Type="Boolean" />
+      <Parameter Name="disable_constraints" Mode="In" Type="Boolean" />
+      <Parameter Name="ommit_computed_cols" Mode="In" Type="Boolean" />
+      <Parameter Name="include_use_db" Mode="In" Type="Boolean" />
+      <Parameter Name="results_to_text" Mode="In" Type="Boolean" />
+      <Parameter Name="include_rowsaffected" Mode="In" Type="Boolean" />
+      <Parameter Name="nologo" Mode="In" Type="Boolean" />
+      <Parameter Name="batch_separator" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_helpdiagramdefinition" ReturnType="Collection(AppModel.sp_helpdiagramdefinition_Result)">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_helpdiagrams" ReturnType="Collection(AppModel.sp_helpdiagrams_Result)">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_renamediagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="new_diagramname" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_upgraddiagrams" />
+  </EntityContainer>
+  <ComplexType Name="sp_helpdiagramdefinition_Result">
+    <Property Type="Int32" Name="version" Nullable="true" />
+    <Property Type="Binary" Name="definition" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_helpdiagrams_Result">
+    <Property Type="String" Name="Database" Nullable="true" MaxLength="128" />
+    <Property Type="String" Name="Name" Nullable="false" MaxLength="128" />
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="String" Name="Owner" Nullable="true" MaxLength="128" />
+    <Property Type="Int32" Name="OwnerID" Nullable="false" />
+  </ComplexType>
+</Schema>

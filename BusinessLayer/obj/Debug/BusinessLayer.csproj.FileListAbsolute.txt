@@ -1,0 +1,4 @@
+c:\users\nmish6\documents\visual studio 2013\Projects\AppDB\BusinessLayer\bin\Debug\BusinessLayer.dll
+c:\users\nmish6\documents\visual studio 2013\Projects\AppDB\BusinessLayer\bin\Debug\BusinessLayer.pdb
+c:\users\nmish6\documents\visual studio 2013\Projects\AppDB\BusinessLayer\obj\Debug\BusinessLayer.dll
+c:\users\nmish6\documents\visual studio 2013\Projects\AppDB\BusinessLayer\obj\Debug\BusinessLayer.pdb
