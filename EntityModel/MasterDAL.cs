@@ -9,7 +9,7 @@ using System.Data.Entity;
 using System.Data.Entity.Validation;
 
 namespace DataAccess
-{
+{ 
     public class MasterDAL
     {
         private readonly AppDb_Entities context;
