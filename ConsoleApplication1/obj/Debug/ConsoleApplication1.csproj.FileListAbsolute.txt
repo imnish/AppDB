@@ -1,0 +1,12 @@
+C:\Users\nmish6\Documents\Visual Studio 2013\Projects\AppDB\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+C:\Users\nmish6\Documents\Visual Studio 2013\Projects\AppDB\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+C:\Users\nmish6\Documents\Visual Studio 2013\Projects\AppDB\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+C:\Users\nmish6\Documents\Visual Studio 2013\Projects\AppDB\ConsoleApplication1\bin\Debug\DataAccess.dll
+C:\Users\nmish6\Documents\Visual Studio 2013\Projects\AppDB\ConsoleApplication1\bin\Debug\EntityFramework.dll
+C:\Users\nmish6\Documents\Visual Studio 2013\Projects\AppDB\ConsoleApplication1\bin\Debug\DataAccess.pdb
+C:\Users\nmish6\Documents\Visual Studio 2013\Projects\AppDB\ConsoleApplication1\bin\Debug\EntityFramework.xml
+C:\Users\nmish6\Documents\Visual Studio 2013\Projects\AppDB\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
+C:\Users\nmish6\Documents\Visual Studio 2013\Projects\AppDB\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+C:\Users\nmish6\Documents\Visual Studio 2013\Projects\AppDB\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+C:\Users\nmish6\Documents\Visual Studio 2013\Projects\AppDB\ConsoleApplication1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\nmish6\Documents\Visual Studio 2013\Projects\AppDB\ConsoleApplication1\bin\Debug\EntityFramework.SqlServer.xml

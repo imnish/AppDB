@@ -1,0 +1,9 @@
+c:\users\nmish6\documents\visual studio 2013\Projects\AppDB\EntityModel\bin\Debug\EntityModel.dll.config
+c:\users\nmish6\documents\visual studio 2013\Projects\AppDB\EntityModel\bin\Debug\EntityModel.dll
+c:\users\nmish6\documents\visual studio 2013\Projects\AppDB\EntityModel\bin\Debug\EntityModel.pdb
+c:\users\nmish6\documents\visual studio 2013\Projects\AppDB\EntityModel\bin\Debug\EntityFramework.dll
+c:\users\nmish6\documents\visual studio 2013\Projects\AppDB\EntityModel\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\nmish6\documents\visual studio 2013\Projects\AppDB\EntityModel\bin\Debug\EntityFramework.xml
+c:\users\nmish6\documents\visual studio 2013\Projects\AppDB\EntityModel\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\nmish6\documents\visual studio 2013\Projects\AppDB\EntityModel\obj\Debug\EntityModel.dll
+c:\users\nmish6\documents\visual studio 2013\Projects\AppDB\EntityModel\obj\Debug\EntityModel.pdb
