@@ -50,7 +50,6 @@ namespace DataAccess
             return count;
 
         }
-
         public int AddTechnology(string techname)
         {
 
