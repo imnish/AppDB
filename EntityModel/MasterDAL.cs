@@ -48,6 +48,17 @@ namespace DataAccess
             context.tbl_ServerTypeMaster.Add(serverType);
             int count = context.SaveChanges();
             return count;
+
+        }
+
+        public int AddType(string type)
+        {
+
+            tbl_ServerTypeMaster serverType = new tbl_ServerTypeMaster();
+            serverType.Name = type;
+            context.tbl_ServerTypeMaster.Add(serverType);
+            int count = context.SaveChanges();
+            return count;
         }
 
         public int AddTechnology(string techname)
