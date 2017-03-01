@@ -18,3 +18,13 @@ D:\AppDB\EntityModel\bin\Debug\EntityFramework.SqlServer.xml
 D:\AppDB\EntityModel\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
 D:\AppDB\EntityModel\obj\Debug\DataAccess.dll
 D:\AppDB\EntityModel\obj\Debug\DataAccess.pdb
+D:\Work\GITHub\AppDB\EntityModel\bin\Debug\DataAccess.dll.config
+D:\Work\GITHub\AppDB\EntityModel\bin\Debug\DataAccess.dll
+D:\Work\GITHub\AppDB\EntityModel\bin\Debug\DataAccess.pdb
+D:\Work\GITHub\AppDB\EntityModel\bin\Debug\EntityFramework.dll
+D:\Work\GITHub\AppDB\EntityModel\bin\Debug\EntityFramework.SqlServer.dll
+D:\Work\GITHub\AppDB\EntityModel\bin\Debug\EntityFramework.xml
+D:\Work\GITHub\AppDB\EntityModel\bin\Debug\EntityFramework.SqlServer.xml
+D:\Work\GITHub\AppDB\EntityModel\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
+D:\Work\GITHub\AppDB\EntityModel\obj\Debug\DataAccess.dll
+D:\Work\GITHub\AppDB\EntityModel\obj\Debug\DataAccess.pdb

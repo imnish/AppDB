@@ -25,3 +25,12 @@ D:\AppDB\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssembly
 D:\Work\GITHub\AppDB\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
 D:\Work\GITHub\AppDB\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
 D:\Work\GITHub\AppDB\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+D:\Work\GITHub\AppDB\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+D:\Work\GITHub\AppDB\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+D:\Work\GITHub\AppDB\ConsoleApplication1\bin\Debug\DataAccess.dll
+D:\Work\GITHub\AppDB\ConsoleApplication1\bin\Debug\EntityFramework.dll
+D:\Work\GITHub\AppDB\ConsoleApplication1\bin\Debug\EntityFramework.SqlServer.dll
+D:\Work\GITHub\AppDB\ConsoleApplication1\bin\Debug\DataAccess.pdb
+D:\Work\GITHub\AppDB\ConsoleApplication1\bin\Debug\EntityFramework.xml
+D:\Work\GITHub\AppDB\ConsoleApplication1\bin\Debug\EntityFramework.SqlServer.xml
+D:\Work\GITHub\AppDB\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
