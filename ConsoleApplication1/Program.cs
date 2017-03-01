@@ -11,8 +11,8 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
-            MasterDAL dl = new MasterDAL();
-            dl.AddAgency("MediaVest");
+            MasterDO dl = new MasterDO();
+            dl.DeleteAgency(1);
         }
     }
 }
