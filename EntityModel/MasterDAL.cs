@@ -9,7 +9,7 @@ using System.Data.Entity;
 using System.Data.Entity.Validation;
 
 namespace DataAccess
-{ 
+{
     public class MasterDAL
     {
         private readonly AppDb_Entities context;
@@ -48,8 +48,8 @@ namespace DataAccess
             context.tbl_ServerTypeMaster.Add(serverType);
             int count = context.SaveChanges();
             return count;
-
         }
+
         public int AddTechnology(string techname)
         {
 

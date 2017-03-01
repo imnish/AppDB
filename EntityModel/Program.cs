@@ -10,7 +10,7 @@ namespace DataAccess
     {
         static void Main(string[] args)
         {
-            MasterDAL dl = new MasterDAL();
+            MasterDO dl = new MasterDO();
             dl.AddAgency("Starcom");
         }
     }

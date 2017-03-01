@@ -2,8 +2,3 @@ c:\users\nmish6\documents\visual studio 2013\Projects\AppDB\BusinessLayer\bin\De
 c:\users\nmish6\documents\visual studio 2013\Projects\AppDB\BusinessLayer\bin\Debug\BusinessLayer.pdb
 c:\users\nmish6\documents\visual studio 2013\Projects\AppDB\BusinessLayer\obj\Debug\BusinessLayer.dll
 c:\users\nmish6\documents\visual studio 2013\Projects\AppDB\BusinessLayer\obj\Debug\BusinessLayer.pdb
-D:\AppDB\BusinessLayer\bin\Debug\BusinessLayer.dll
-D:\AppDB\BusinessLayer\bin\Debug\BusinessLayer.pdb
-D:\AppDB\BusinessLayer\obj\Debug\BusinessLayer.csprojResolveAssemblyReference.cache
-D:\AppDB\BusinessLayer\obj\Debug\BusinessLayer.dll
-D:\AppDB\BusinessLayer\obj\Debug\BusinessLayer.pdb
