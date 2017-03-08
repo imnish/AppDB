@@ -34,6 +34,8 @@ namespace DataAccess.Model
         public Nullable<System.DateTime> ModifiedOn { get; set; }
         public Nullable<int> CreatedBy { get; set; }
         public Nullable<int> ModifiedBy { get; set; }
+        public Nullable<System.DateTime> StartDate { get; set; }
+        public Nullable<System.DateTime> EndDate { get; set; }
     
         public virtual ICollection<tbl_AppRole> tbl_AppRole { get; set; }
     }

@@ -6,8 +6,8 @@
         <MappingFragment StoreEntitySet="tbl_AgencyMaster">
           <ScalarProperty Name="EndDate" ColumnName="EndDate" />
           <ScalarProperty Name="StartDate" ColumnName="StartDate" />
-          <ScalarProperty Name="Id" ColumnName="Id" />
           <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
@@ -16,44 +16,44 @@
         <MappingFragment StoreEntitySet="tbl_App">
           <ScalarProperty Name="EndDate" ColumnName="EndDate" />
           <ScalarProperty Name="StartDate" ColumnName="StartDate" />
-          <ScalarProperty Name="Id" ColumnName="Id" />
-          <ScalarProperty Name="Name" ColumnName="Name" />
-          <ScalarProperty Name="Description" ColumnName="Description" />
-          <ScalarProperty Name="StagedTo" ColumnName="StagedTo" />
-          <ScalarProperty Name="PID" ColumnName="PID" />
-          <ScalarProperty Name="DEVUrl" ColumnName="DEVUrl" />
-          <ScalarProperty Name="StageUrl" ColumnName="StageUrl" />
-          <ScalarProperty Name="ProdUrl" ColumnName="ProdUrl" />
-          <ScalarProperty Name="SourcePath" ColumnName="SourcePath" />
           <ScalarProperty Name="DocsRepo" ColumnName="DocsRepo" />
+          <ScalarProperty Name="SourcePath" ColumnName="SourcePath" />
+          <ScalarProperty Name="ProdUrl" ColumnName="ProdUrl" />
+          <ScalarProperty Name="StageUrl" ColumnName="StageUrl" />
+          <ScalarProperty Name="DEVUrl" ColumnName="DEVUrl" />
+          <ScalarProperty Name="PID" ColumnName="PID" />
+          <ScalarProperty Name="StagedTo" ColumnName="StagedTo" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="tbl_AppAgency">
       <EntityTypeMapping TypeName="AppDb_Model.tbl_AppAgency">
         <MappingFragment StoreEntitySet="tbl_AppAgency">
-          <ScalarProperty Name="AppId" ColumnName="AppId" />
-          <ScalarProperty Name="AgencyId" ColumnName="AgencyId" />
           <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="AgencyId" ColumnName="AgencyId" />
+          <ScalarProperty Name="AppId" ColumnName="AppId" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="tbl_AppDomain">
       <EntityTypeMapping TypeName="AppDb_Model.tbl_AppDomain">
         <MappingFragment StoreEntitySet="tbl_AppDomain">
-          <ScalarProperty Name="AppId" ColumnName="AppId" />
-          <ScalarProperty Name="DomainId" ColumnName="DomainId" />
           <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="DomainId" ColumnName="DomainId" />
+          <ScalarProperty Name="AppId" ColumnName="AppId" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="tbl_AppRole">
       <EntityTypeMapping TypeName="AppDb_Model.tbl_AppRole">
         <MappingFragment StoreEntitySet="tbl_AppRole">
-          <ScalarProperty Name="AppId" ColumnName="AppId" />
-          <ScalarProperty Name="EmpId" ColumnName="EmpId" />
-          <ScalarProperty Name="AppRoleId" ColumnName="AppRoleId" />
           <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="AppRoleId" ColumnName="AppRoleId" />
+          <ScalarProperty Name="EmpId" ColumnName="EmpId" />
+          <ScalarProperty Name="AppId" ColumnName="AppId" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
@@ -62,27 +62,27 @@
         <MappingFragment StoreEntitySet="tbl_AppRoleMaster">
           <ScalarProperty Name="EndDate" ColumnName="EndDate" />
           <ScalarProperty Name="StartDate" ColumnName="StartDate" />
-          <ScalarProperty Name="Id" ColumnName="Id" />
           <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="tbl_AppServer">
       <EntityTypeMapping TypeName="AppDb_Model.tbl_AppServer">
         <MappingFragment StoreEntitySet="tbl_AppServer">
-          <ScalarProperty Name="AppId" ColumnName="AppId" />
-          <ScalarProperty Name="ServerId" ColumnName="ServerId" />
-          <ScalarProperty Name="ServerTypeId" ColumnName="ServerTypeId" />
           <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ServerTypeId" ColumnName="ServerTypeId" />
+          <ScalarProperty Name="ServerId" ColumnName="ServerId" />
+          <ScalarProperty Name="AppId" ColumnName="AppId" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="tbl_AppTech">
       <EntityTypeMapping TypeName="AppDb_Model.tbl_AppTech">
         <MappingFragment StoreEntitySet="tbl_AppTech">
-          <ScalarProperty Name="AppId" ColumnName="AppId" />
-          <ScalarProperty Name="TechId" ColumnName="TechId" />
           <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="TechId" ColumnName="TechId" />
+          <ScalarProperty Name="AppId" ColumnName="AppId" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
@@ -91,44 +91,48 @@
         <MappingFragment StoreEntitySet="tbl_DomainMaster">
           <ScalarProperty Name="EndDate" ColumnName="EndDate" />
           <ScalarProperty Name="StartDate" ColumnName="StartDate" />
-          <ScalarProperty Name="Id" ColumnName="Id" />
           <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="tbl_Employee">
       <EntityTypeMapping TypeName="AppDb_Model.tbl_Employee">
         <MappingFragment StoreEntitySet="tbl_Employee">
-          <ScalarProperty Name="Id" ColumnName="Id" />
-          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
-          <ScalarProperty Name="LastName" ColumnName="LastName" />
-          <ScalarProperty Name="MajorSkill" ColumnName="MajorSkill" />
-          <ScalarProperty Name="Gender" ColumnName="Gender" />
-          <ScalarProperty Name="Contact" ColumnName="Contact" />
-          <ScalarProperty Name="ManagerId" ColumnName="ManagerId" />
-          <ScalarProperty Name="LLId" ColumnName="LLId" />
-          <ScalarProperty Name="Email" ColumnName="Email" />
-          <ScalarProperty Name="IsUsResources" ColumnName="IsUsResources" />
-          <ScalarProperty Name="IsContractor" ColumnName="IsContractor" />
-          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
-          <ScalarProperty Name="ModifiedOn" ColumnName="ModifiedOn" />
-          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="EndDate" ColumnName="EndDate" />
+          <ScalarProperty Name="StartDate" ColumnName="StartDate" />
           <ScalarProperty Name="ModifiedBy" ColumnName="ModifiedBy" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="ModifiedOn" ColumnName="ModifiedOn" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="IsContractor" ColumnName="IsContractor" />
+          <ScalarProperty Name="IsUsResources" ColumnName="IsUsResources" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="LLId" ColumnName="LLId" />
+          <ScalarProperty Name="ManagerId" ColumnName="ManagerId" />
+          <ScalarProperty Name="Contact" ColumnName="Contact" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+          <ScalarProperty Name="MajorSkill" ColumnName="MajorSkill" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="tbl_Server">
       <EntityTypeMapping TypeName="AppDb_Model.tbl_Server">
         <MappingFragment StoreEntitySet="tbl_Server">
-          <ScalarProperty Name="Id" ColumnName="Id" />
-          <ScalarProperty Name="Name" ColumnName="Name" />
-          <ScalarProperty Name="IP" ColumnName="IP" />
-          <ScalarProperty Name="Stage" ColumnName="Stage" />
-          <ScalarProperty Name="LoginId" ColumnName="LoginId" />
-          <ScalarProperty Name="Password" ColumnName="Password" />
-          <ScalarProperty Name="FingerPrint" ColumnName="FingerPrint" />
-          <ScalarProperty Name="Host" ColumnName="Host" />
+          <ScalarProperty Name="EndDate" ColumnName="EndDate" />
+          <ScalarProperty Name="StartDate" ColumnName="StartDate" />
           <ScalarProperty Name="FolderPath" ColumnName="FolderPath" />
+          <ScalarProperty Name="Host" ColumnName="Host" />
+          <ScalarProperty Name="FingerPrint" ColumnName="FingerPrint" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="LoginId" ColumnName="LoginId" />
+          <ScalarProperty Name="Stage" ColumnName="Stage" />
+          <ScalarProperty Name="IP" ColumnName="IP" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
@@ -137,8 +141,8 @@
         <MappingFragment StoreEntitySet="tbl_ServerTypeMaster">
           <ScalarProperty Name="EndDate" ColumnName="EndDate" />
           <ScalarProperty Name="StartDate" ColumnName="StartDate" />
-          <ScalarProperty Name="Id" ColumnName="Id" />
           <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
@@ -147,8 +151,8 @@
         <MappingFragment StoreEntitySet="tbl_TechnologyMaster">
           <ScalarProperty Name="EndDate" ColumnName="EndDate" />
           <ScalarProperty Name="StartDate" ColumnName="StartDate" />
-          <ScalarProperty Name="Id" ColumnName="Id" />
           <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
