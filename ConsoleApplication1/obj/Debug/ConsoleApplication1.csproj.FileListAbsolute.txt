@@ -10,3 +10,19 @@ C:\Users\nmish6\Documents\Visual Studio 2013\Projects\AppDB\ConsoleApplication1\
 C:\Users\nmish6\Documents\Visual Studio 2013\Projects\AppDB\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
 C:\Users\nmish6\Documents\Visual Studio 2013\Projects\AppDB\ConsoleApplication1\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\nmish6\Documents\Visual Studio 2013\Projects\AppDB\ConsoleApplication1\bin\Debug\EntityFramework.SqlServer.xml
+D:\AppDB\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+D:\AppDB\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+D:\AppDB\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+D:\AppDB\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+D:\AppDB\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+D:\AppDB\ConsoleApplication1\bin\Debug\DataAccess.dll
+D:\AppDB\ConsoleApplication1\bin\Debug\EntityFramework.dll
+D:\AppDB\ConsoleApplication1\bin\Debug\EntityFramework.SqlServer.dll
+D:\AppDB\ConsoleApplication1\bin\Debug\DataAccess.pdb
+D:\AppDB\ConsoleApplication1\bin\Debug\EntityFramework.xml
+D:\AppDB\ConsoleApplication1\bin\Debug\EntityFramework.SqlServer.xml
+D:\AppDB\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
+D:\AppDB\ConsoleApplication1\bin\Debug\BusinessInterface.dll
+D:\AppDB\ConsoleApplication1\bin\Debug\BusinessInterface.pdb
+D:\AppDB\ConsoleApplication1\bin\Debug\log4net.dll
+D:\AppDB\ConsoleApplication1\bin\Debug\log4net.xml

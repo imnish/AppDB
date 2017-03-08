@@ -28,6 +28,8 @@ namespace DataAccess.Model
         public string FingerPrint { get; set; }
         public string Host { get; set; }
         public string FolderPath { get; set; }
+        public Nullable<System.DateTime> StartDate { get; set; }
+        public Nullable<System.DateTime> EndDate { get; set; }
     
         public virtual ICollection<tbl_AppServer> tbl_AppServer { get; set; }
     }

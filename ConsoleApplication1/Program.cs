@@ -1,4 +1,4 @@
-﻿using DataAccess;
+﻿using BusinessInterface;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,8 +11,8 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
-            MasterDAL dl = new MasterDAL();
-            dl.AddAgency("MediaVest");
+            MasterBO BO = new MasterBO();
+            BO.AddAgency("TestAgency");
         }
     }
 }
