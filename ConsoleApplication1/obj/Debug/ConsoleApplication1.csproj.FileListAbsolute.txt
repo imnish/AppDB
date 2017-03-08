@@ -24,5 +24,3 @@ D:\AppDB\ConsoleApplication1\bin\Debug\EntityFramework.SqlServer.xml
 D:\AppDB\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
 D:\AppDB\ConsoleApplication1\bin\Debug\BusinessInterface.dll
 D:\AppDB\ConsoleApplication1\bin\Debug\BusinessInterface.pdb
-D:\AppDB\ConsoleApplication1\bin\Debug\log4net.dll
-D:\AppDB\ConsoleApplication1\bin\Debug\log4net.xml
