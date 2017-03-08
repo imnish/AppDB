@@ -1,4 +1,4 @@
-﻿// T4 code generation is enabled for model 'C:\Users\nmish6\Documents\Visual Studio 2013\Projects\AppDB\EntityModel\Model\AppDbModel.edmx'. 
+﻿// T4 code generation is enabled for model 'D:\Work\GITHub\AppDB\EntityModel\Model\AppDbModel.edmx'. 
 // To enable legacy code generation, change the value of the 'Code Generation Strategy' designer
 // property to 'Legacy ObjectContext'. This property is available in the Properties Window when the model
 // is open in the designer.

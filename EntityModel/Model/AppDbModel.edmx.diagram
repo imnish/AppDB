@@ -5,31 +5,31 @@
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
       <Diagram DiagramId="b0304e779b9d4bcb9fb1cdd7f0fa5f91" Name="Diagram1">
-        <EntityTypeShape EntityType="AppDb_Model.tbl_AgencyMaster" Width="1.5" PointX="0.75" PointY="11.5" IsExpanded="true" />
-        <EntityTypeShape EntityType="AppDb_Model.tbl_App" Width="1.5" PointX="0.75" PointY="6.375" IsExpanded="true" />
-        <EntityTypeShape EntityType="AppDb_Model.tbl_AppAgency" Width="1.5" PointX="3" PointY="7.375" IsExpanded="true" />
-        <EntityTypeShape EntityType="AppDb_Model.tbl_AppDomain" Width="1.5" PointX="3" PointY="4.375" IsExpanded="true" />
-        <EntityTypeShape EntityType="AppDb_Model.tbl_AppRole" Width="1.5" PointX="3" PointY="10.125" IsExpanded="true" />
-        <EntityTypeShape EntityType="AppDb_Model.tbl_AppRoleMaster" Width="1.5" PointX="0.75" PointY="14.125" IsExpanded="true" />
-        <EntityTypeShape EntityType="AppDb_Model.tbl_AppServer" Width="1.5" PointX="6" PointY="7.125" IsExpanded="true" />
-        <EntityTypeShape EntityType="AppDb_Model.tbl_AppTech" Width="1.5" PointX="6" PointY="4.375" IsExpanded="true" />
-        <EntityTypeShape EntityType="AppDb_Model.tbl_DomainMaster" Width="1.5" PointX="0.75" PointY="3.5" IsExpanded="true" />
-        <EntityTypeShape EntityType="AppDb_Model.tbl_Employee" Width="1.5" PointX="0.75" PointY="16.5" IsExpanded="true" />
-        <EntityTypeShape EntityType="AppDb_Model.tbl_Server" Width="1.5" PointX="3.75" PointY="14.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="AppDb_Model.tbl_ServerTypeMaster" Width="1.5" PointX="3.75" PointY="18.375" IsExpanded="true" />
-        <EntityTypeShape EntityType="AppDb_Model.tbl_TechnologyMaster" Width="1.5" PointX="3.75" PointY="1.5" IsExpanded="true" />
-        <AssociationConnector Association="AppDb_Model.FK_tbl_AppwithAgency_tbl_Agency" ManuallyRouted="false" />
-        <AssociationConnector Association="AppDb_Model.FK_tbl_AppwithAgency_tbl_App" ManuallyRouted="false" />
-        <AssociationConnector Association="AppDb_Model.FK_tbl_AppwithDomain_tbl_App" ManuallyRouted="false" />
-        <AssociationConnector Association="AppDb_Model.FK_tbl_AppwithRole_tbl_App" ManuallyRouted="false" />
-        <AssociationConnector Association="AppDb_Model.FK_tbl_AppwithServer_tbl_App" ManuallyRouted="false" />
-        <AssociationConnector Association="AppDb_Model.FK_tbl_AppwithTech_tbl_App" ManuallyRouted="false" />
-        <AssociationConnector Association="AppDb_Model.FK_tbl_AppwithDomain_tbl_Domain" ManuallyRouted="false" />
-        <AssociationConnector Association="AppDb_Model.FK_tbl_AppwithRole_tbl_AppRoleType" ManuallyRouted="false" />
-        <AssociationConnector Association="AppDb_Model.FK_tbl_AppwithRole_tbl_Employee" ManuallyRouted="false" />
-        <AssociationConnector Association="AppDb_Model.FK_tbl_AppwithServer_tbl_Server" ManuallyRouted="false" />
-        <AssociationConnector Association="AppDb_Model.FK_tbl_AppwithServer_tbl_ServerType" ManuallyRouted="false" />
-        <AssociationConnector Association="AppDb_Model.FK_tbl_AppwithTech_tbl_Technology" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="AppDb_Model.tbl_AgencyMaster" Width="1.5" PointX="4.125" PointY="19.125" />
+        <EntityTypeShape EntityType="AppDb_Model.tbl_App" Width="1.5" PointX="1.125" PointY="8" />
+        <EntityTypeShape EntityType="AppDb_Model.tbl_AppAgency" Width="1.5" PointX="6.375" PointY="9.125" />
+        <EntityTypeShape EntityType="AppDb_Model.tbl_AppDomain" Width="1.5" PointX="3.375" PointY="9.125" />
+        <EntityTypeShape EntityType="AppDb_Model.tbl_AppRole" Width="1.5" PointX="7.25" PointY="12.5" />
+        <EntityTypeShape EntityType="AppDb_Model.tbl_AppRoleMaster" Width="1.5" PointX="1.125" PointY="21.75" />
+        <EntityTypeShape EntityType="AppDb_Model.tbl_AppServer" Width="1.5" PointX="6.375" PointY="6" />
+        <EntityTypeShape EntityType="AppDb_Model.tbl_AppTech" Width="1.5" PointX="3.375" PointY="6.125" />
+        <EntityTypeShape EntityType="AppDb_Model.tbl_DomainMaster" Width="1.5" PointX="1.125" PointY="13.125" />
+        <EntityTypeShape EntityType="AppDb_Model.tbl_Employee" Width="1.5" PointX="1.125" PointY="16.5" />
+        <EntityTypeShape EntityType="AppDb_Model.tbl_Server" Width="1.5" PointX="4.125" PointY="1.125" />
+        <EntityTypeShape EntityType="AppDb_Model.tbl_ServerTypeMaster" Width="1.5" PointX="4.125" PointY="15.25" />
+        <EntityTypeShape EntityType="AppDb_Model.tbl_TechnologyMaster" Width="1.5" PointX="1.125" PointY="5.125" />
+        <AssociationConnector Association="AppDb_Model.FK_tbl_AppwithAgency_tbl_Agency" />
+        <AssociationConnector Association="AppDb_Model.FK_tbl_AppwithAgency_tbl_App" />
+        <AssociationConnector Association="AppDb_Model.FK_tbl_AppwithDomain_tbl_App" />
+        <AssociationConnector Association="AppDb_Model.FK_tbl_AppwithRole_tbl_App" />
+        <AssociationConnector Association="AppDb_Model.FK_tbl_AppwithServer_tbl_App" />
+        <AssociationConnector Association="AppDb_Model.FK_tbl_AppwithTech_tbl_App" />
+        <AssociationConnector Association="AppDb_Model.FK_tbl_AppwithDomain_tbl_Domain" />
+        <AssociationConnector Association="AppDb_Model.FK_tbl_AppwithRole_tbl_AppRoleType" />
+        <AssociationConnector Association="AppDb_Model.FK_tbl_AppwithRole_tbl_Employee" />
+        <AssociationConnector Association="AppDb_Model.FK_tbl_AppwithServer_tbl_Server" />
+        <AssociationConnector Association="AppDb_Model.FK_tbl_AppwithServer_tbl_ServerType" />
+        <AssociationConnector Association="AppDb_Model.FK_tbl_AppwithTech_tbl_Technology" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

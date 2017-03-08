@@ -105,6 +105,8 @@
     <Property Name="ModifiedOn" Type="datetime" />
     <Property Name="CreatedBy" Type="int" />
     <Property Name="ModifiedBy" Type="int" />
+    <Property Name="StartDate" Type="datetime" />
+    <Property Name="EndDate" Type="datetime" />
   </EntityType>
   <EntityType Name="tbl_Server">
     <Key>
@@ -119,6 +121,8 @@
     <Property Name="FingerPrint" Type="varchar" MaxLength="100" />
     <Property Name="Host" Type="varchar" MaxLength="100" />
     <Property Name="FolderPath" Type="varchar" MaxLength="100" />
+    <Property Name="StartDate" Type="datetime" />
+    <Property Name="EndDate" Type="datetime" />
   </EntityType>
   <EntityType Name="tbl_ServerTypeMaster">
     <Key>
