@@ -8,3 +8,16 @@ c:\users\nmish6\documents\visual studio 2013\Projects\AppDB\EntityModel\bin\Debu
 c:\users\nmish6\documents\visual studio 2013\Projects\AppDB\EntityModel\obj\Debug\DataAccess.dll
 c:\users\nmish6\documents\visual studio 2013\Projects\AppDB\EntityModel\obj\Debug\DataAccess.pdb
 C:\Users\nmish6\Documents\Visual Studio 2013\Projects\AppDB\EntityModel\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
+D:\AppDB\EntityModel\bin\Debug\DataAccess.dll.config
+D:\AppDB\EntityModel\bin\Debug\DataAccess.dll
+D:\AppDB\EntityModel\bin\Debug\DataAccess.pdb
+D:\AppDB\EntityModel\bin\Debug\EntityFramework.dll
+D:\AppDB\EntityModel\bin\Debug\EntityFramework.SqlServer.dll
+D:\AppDB\EntityModel\bin\Debug\EntityFramework.xml
+D:\AppDB\EntityModel\bin\Debug\EntityFramework.SqlServer.xml
+D:\AppDB\EntityModel\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
+D:\AppDB\EntityModel\obj\Debug\DataAccess.dll
+D:\AppDB\EntityModel\obj\Debug\DataAccess.pdb
+D:\AppDB\EntityModel\bin\Debug\log4net.dll
+D:\AppDB\EntityModel\bin\Debug\log4net.xml
+D:\AppDB\EntityModel\bin\Debug\Elmah.dll
